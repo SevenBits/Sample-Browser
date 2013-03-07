@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24A07E2A16E7FBC3002246D2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A07E2916E7FBC3002246D2 /* Cocoa.framework */; };
+		24A07E3416E7FBC3002246D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24A07E3216E7FBC3002246D2 /* InfoPlist.strings */; };
+		24A07E3616E7FBC3002246D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A07E3516E7FBC3002246D2 /* main.m */; };
+		24A07E3A16E7FBC3002246D2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 24A07E3816E7FBC3002246D2 /* Credits.rtf */; };
+		24A07E3D16E7FBC3002246D2 /* SBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A07E3C16E7FBC3002246D2 /* SBAppDelegate.m */; };
+		24A07E4016E7FBC4002246D2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24A07E3E16E7FBC4002246D2 /* MainMenu.xib */; };
+		24A07E4716E7FBD8002246D2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A07E4616E7FBD8002246D2 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24A07E2616E7FBC3002246D2 /* SimpleBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24A07E2916E7FBC3002246D2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		24A07E2C16E7FBC3002246D2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		24A07E2D16E7FBC3002246D2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		24A07E2E16E7FBC3002246D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		24A07E3116E7FBC3002246D2 /* SimpleBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleBrowser-Info.plist"; sourceTree = "<group>"; };
+		24A07E3316E7FBC3002246D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24A07E3516E7FBC3002246D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24A07E3716E7FBC3002246D2 /* SimpleBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		24A07E3916E7FBC3002246D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		24A07E3B16E7FBC3002246D2 /* SBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBAppDelegate.h; sourceTree = "<group>"; };
+		24A07E3C16E7FBC3002246D2 /* SBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBAppDelegate.m; sourceTree = "<group>"; };
+		24A07E3F16E7FBC4002246D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		24A07E4616E7FBD8002246D2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24A07E2316E7FBC3002246D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A07E4716E7FBD8002246D2 /* WebKit.framework in Frameworks */,
+				24A07E2A16E7FBC3002246D2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24A07E1D16E7FBC3002246D2 = {
+			isa = PBXGroup;
+			children = (
+				24A07E2F16E7FBC3002246D2 /* SimpleBrowser */,
+				24A07E2816E7FBC3002246D2 /* Frameworks */,
+				24A07E2716E7FBC3002246D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24A07E2716E7FBC3002246D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24A07E2616E7FBC3002246D2 /* SimpleBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24A07E2816E7FBC3002246D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24A07E4616E7FBD8002246D2 /* WebKit.framework */,
+				24A07E2916E7FBC3002246D2 /* Cocoa.framework */,
+				24A07E2B16E7FBC3002246D2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24A07E2B16E7FBC3002246D2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24A07E2C16E7FBC3002246D2 /* AppKit.framework */,
+				24A07E2D16E7FBC3002246D2 /* CoreData.framework */,
+				24A07E2E16E7FBC3002246D2 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		24A07E2F16E7FBC3002246D2 /* SimpleBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				24A07E3B16E7FBC3002246D2 /* SBAppDelegate.h */,
+				24A07E3C16E7FBC3002246D2 /* SBAppDelegate.m */,
+				24A07E3E16E7FBC4002246D2 /* MainMenu.xib */,
+				24A07E3016E7FBC3002246D2 /* Supporting Files */,
+			);
+			path = SimpleBrowser;
+			sourceTree = "<group>";
+		};
+		24A07E3016E7FBC3002246D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24A07E3116E7FBC3002246D2 /* SimpleBrowser-Info.plist */,
+				24A07E3216E7FBC3002246D2 /* InfoPlist.strings */,
+				24A07E3516E7FBC3002246D2 /* main.m */,
+				24A07E3716E7FBC3002246D2 /* SimpleBrowser-Prefix.pch */,
+				24A07E3816E7FBC3002246D2 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24A07E2516E7FBC3002246D2 /* SimpleBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24A07E4316E7FBC4002246D2 /* Build configuration list for PBXNativeTarget "SimpleBrowser" */;
+			buildPhases = (
+				24A07E2216E7FBC3002246D2 /* Sources */,
+				24A07E2316E7FBC3002246D2 /* Frameworks */,
+				24A07E2416E7FBC3002246D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleBrowser;
+			productName = SimpleBrowser;
+			productReference = 24A07E2616E7FBC3002246D2 /* SimpleBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24A07E1E16E7FBC3002246D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SB;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = SevenBits;
+			};
+			buildConfigurationList = 24A07E2116E7FBC3002246D2 /* Build configuration list for PBXProject "SimpleBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 24A07E1D16E7FBC3002246D2;
+			productRefGroup = 24A07E2716E7FBC3002246D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24A07E2516E7FBC3002246D2 /* SimpleBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24A07E2416E7FBC3002246D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A07E3416E7FBC3002246D2 /* InfoPlist.strings in Resources */,
+				24A07E3A16E7FBC3002246D2 /* Credits.rtf in Resources */,
+				24A07E4016E7FBC4002246D2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24A07E2216E7FBC3002246D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A07E3616E7FBC3002246D2 /* main.m in Sources */,
+				24A07E3D16E7FBC3002246D2 /* SBAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24A07E3216E7FBC3002246D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24A07E3316E7FBC3002246D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		24A07E3816E7FBC3002246D2 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24A07E3916E7FBC3002246D2 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		24A07E3E16E7FBC4002246D2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24A07E3F16E7FBC4002246D2 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24A07E4116E7FBC4002246D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		24A07E4216E7FBC4002246D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		24A07E4416E7FBC4002246D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleBrowser/SimpleBrowser-Prefix.pch";
+				INFOPLIST_FILE = "SimpleBrowser/SimpleBrowser-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		24A07E4516E7FBC4002246D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleBrowser/SimpleBrowser-Prefix.pch";
+				INFOPLIST_FILE = "SimpleBrowser/SimpleBrowser-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24A07E2116E7FBC3002246D2 /* Build configuration list for PBXProject "SimpleBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24A07E4116E7FBC4002246D2 /* Debug */,
+				24A07E4216E7FBC4002246D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24A07E4316E7FBC4002246D2 /* Build configuration list for PBXNativeTarget "SimpleBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24A07E4416E7FBC4002246D2 /* Debug */,
+				24A07E4516E7FBC4002246D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24A07E1E16E7FBC3002246D2 /* Project object */;
+}
